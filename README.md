@@ -1,29 +1,38 @@
-Inferential Statistics in R
+# 📊 Inferential Statistics in R
 
-This repository contains an R script for performing inferential statistics on a dataset, including descriptive stats, t-tests, ANOVA, non-parametric tests, chi-square tests, and regression analysis.
+A complete R toolkit for performing inferential statistics — from summaries to regression diagnostics.
 
-Key Features
+---
 
-Descriptive Statistics: Overview of dataset, mean, median, SD.
+## 🔹 Key Features
 
-Parametric Tests: t-tests, ANOVA.
+### 1. Descriptive Statistics
+- Overview of dataset, mean, median, SD
 
-Non-Parametric Tests: Shapiro-Wilk, Wilcoxon, Kruskal-Wallis.
+### 2. Parametric Tests
+- t-tests, ANOVA
 
-Categorical Analysis: Chi-square test.
+### 3. Non-Parametric Tests
+- Shapiro-Wilk, Wilcoxon, Kruskal-Wallis
 
-Regression: Simple and multiple linear regression with diagnostics.
+### 4. Categorical Analysis
+- Chi-square test
 
-Requirements
+### 5. Regression
+- Simple & multiple linear regression with diagnostics
 
-R ≥ 4.0
+---
 
-Packages: dplyr, summarytools, readxl, lmtest, car, MASS
+## ⚡ Getting Started
 
-Usage
+1. Place your dataset in `data/` folder  
+2. Open `inferential_statistics.R` in RStudio  
+3. Run the script to see results, p-values, and diagnostic plots
 
-Place dataset in data/ folder.
+---
 
-Open and run inferential_statistics.R in RStudio.
+## 🛠 Requirements
 
-View results and diagnostic plots.
+- R ≥ 4.0  
+- Packages: `dplyr`, `summarytools`, `readxl`, `lmtest`, `car`, `MASS`  
+
